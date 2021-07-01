@@ -1,12 +1,17 @@
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  /* align-items: center;
-  justify-content: center; */
-  /* align-self: center; */
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Indie+Flower&display=swap');
 
+body {
+
+  font-family: 'Dancing Script', cursive;
+}
+
+.invite {
+  font-family: 'Indie Flower', cursive;
 }
 
 .flip-card {
+  font-family: 'Dancing Script', cursive;
   margin: 0 auto;
   background-color: transparent;
   width: 300px;
@@ -43,7 +48,7 @@ body {
 }
 
 .flip-card-back {
-  background-color: #2980b9;
+  background-color: #bbb;
   color: white;
   transform: rotateY(180deg);
 }
